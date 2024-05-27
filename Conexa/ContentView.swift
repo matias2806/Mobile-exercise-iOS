@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var news: [New] = []
+    let newsService = NewsService()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            SearchView(news: news)
+                .navigationBarTitle("Conexa")
         }
-        .padding()
+        
+        .onAppear {
+            newsService.getNews { result in
+                switch result {
+                case .success(let news):
+                    self.news = news
+                case .failure(let error):
+                    print("Error: \(error)")
+                }
+            }
+        }
     }
 }
 
