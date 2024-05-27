@@ -9,24 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var news: [New] = []
-    let newsService = NewsService()
-    
     var body: some View {
-        NavigationView {
-            SearchView(news: news)
-                .navigationBarTitle("Conexa")
-        }
-        
-        .onAppear {
-            newsService.getNews { result in
-                switch result {
-                case .success(let news):
-                    self.news = news
-                case .failure(let error):
-                    print("Error: \(error)")
+        TabView {
+            NewsView()
+                .tabItem {
+                    Label("Noticias", systemImage: "newspaper")
                 }
-            }
+            UsersViews()
+                .tabItem {
+                    Label("Usuarios", systemImage: "person.2")
+                }
         }
     }
 }
