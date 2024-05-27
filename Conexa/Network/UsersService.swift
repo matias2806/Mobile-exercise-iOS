@@ -1,15 +1,15 @@
 //
-//  NewsService.swift
+//  UsersService.swift
 //  Conexa
 //
-//  Created by Matias Palmieri on 26/05/2024.
+//  Created by Matias Palmieri on 27/05/2024.
 //
 
 import Foundation
 
-class NewsService {
-    func getNews(completion: @escaping (Result<[New], Error>) -> Void) {
-        guard let url = URL(string: "https://jsonplaceholder.org/posts") else {
+class UsersService {
+    func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
+        guard let url = URL(string: "https://jsonplaceholder.org/users") else {
             completion(.failure(NetworkError.invalidURL))
             return
         }
@@ -21,7 +21,7 @@ class NewsService {
             }
             
             do {
-                let newsResponse = try JSONDecoder().decode([New].self, from: data)
+                let newsResponse = try JSONDecoder().decode([User].self, from: data)
                 completion(.success(newsResponse))
             } catch {
                 completion(.failure(error))
