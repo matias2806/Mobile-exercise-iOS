@@ -116,5 +116,165 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCA6EDB4-E0D2-4826-8704-08EC344F5509"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Conexa/Network/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getUsers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCA6EDB4-E0D2-4826-8704-08EC344F5509 - a3fd502a5064b671"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Conexa.UsersService.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;Conexa.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Conexa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Desktop/Mobile-exercise-iOS/Conexa/Network/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "446">
+               </Location>
+               <Location
+                  uuid = "FCA6EDB4-E0D2-4826-8704-08EC344F5509 - a3fd502a5064b61e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Conexa.UsersService.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;Conexa.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Conexa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Desktop/Mobile-exercise-iOS/Conexa/Network/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "934">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0645A2BC-CBA6-46B2-862D-73E06D359302"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Conexa/Network/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getUsers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0645A2BC-CBA6-46B2-862D-73E06D359302 - a3fd502a5064b671"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Conexa.UsersService.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;Conexa.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Conexa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Desktop/Mobile-exercise-iOS/Conexa/Network/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "446">
+               </Location>
+               <Location
+                  uuid = "0645A2BC-CBA6-46B2-862D-73E06D359302 - a3fd502a5064b63f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Conexa.UsersService.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;Conexa.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Conexa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Desktop/Mobile-exercise-iOS/Conexa/Network/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "836">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C64A1CF6-5192-473C-8593-1617EC41CF66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Conexa/Network/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getUsers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C64A1CF6-5192-473C-8593-1617EC41CF66 - 7779409e736f1073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Conexa.UsersService.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;Conexa.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Conexa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Desktop/Mobile-exercise-iOS/Conexa/Network/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  uuid = "C64A1CF6-5192-473C-8593-1617EC41CF66 - 7779409e736f1073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Conexa.UsersService.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;Conexa.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Conexa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matiaspalmieri/Desktop/Mobile-exercise-iOS/Conexa/Network/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "358">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2147CB1-A17D-4A3D-A03F-C6F316995DF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Conexa/Network/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getUsers(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
