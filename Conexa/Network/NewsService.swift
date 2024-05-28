@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NewsService {
+final class NewsService {
     func getNews(completion: @escaping (Result<[New], Error>) -> Void) {
         guard let url = URL(string: "https://jsonplaceholder.org/posts") else {
             completion(.failure(NetworkError.invalidURL))
