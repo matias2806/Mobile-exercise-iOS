@@ -64,6 +64,8 @@ The app has a tab bar to differentiate user flows from news flows.
 | iPhone 15 Pro Max   | ![Simulator Screen Recording - iPhone 15 Pro Max - 2024-05-28 at 13 02 35](https://github.com/matias2806/Mobile-exercise-iOS/assets/36246975/3d460f20-58f8-410f-a578-9dbd6f2335ec) | ![Simulator Screen Recording - iPhone 15 Pro Max - 2024-05-28 at 13 01 58](https://github.com/matias2806/Mobile-exercise-iOS/assets/36246975/e3dceb19-6ede-4773-b98e-cfc04607694d) |
 | iPhone SE (3rd generation) | ![Simulator Screen Recording - iPhone SE (3rd generation) - 2024-05-28 at 14 23 43](https://github.com/matias2806/Mobile-exercise-iOS/assets/36246975/22dee7f5-c228-48b8-9cf7-3d86c996a8e9) | ![Simulator Screen Recording - iPhone SE (3rd generation) - 2024-05-28 at 14 21 25](https://github.com/matias2806/Mobile-exercise-iOS/assets/36246975/71e8f201-0b40-4cff-ade3-31d8bbf458d3) |
 
+# Test Coverage
 
+![image](https://github.com/matias2806/Mobile-exercise-iOS/assets/36246975/e8331f10-539c-45b8-affa-1be9f0f82eca)
 
 
