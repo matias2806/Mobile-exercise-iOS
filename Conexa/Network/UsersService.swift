@@ -29,6 +29,8 @@ final class UsersService {
         urlSession?.dataTask(with: url) { data, response, error in
             if let _ = error {
                 print("Error \(String(describing: error))")
+                completion(.failure(NetworkError.invalidURL))
+                return
             }
             
             guard let data = data else {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8F5E752C0658B100E0A049 /* UserServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F5E742C0658B100E0A049 /* UserServiceTest.swift */; };
 		0AE790322C03FD1C008A7955 /* ConexaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE790312C03FD1C008A7955 /* ConexaApp.swift */; };
 		0AE790342C03FD1C008A7955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE790332C03FD1C008A7955 /* ContentView.swift */; };
 		0AE790362C03FD20008A7955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE790352C03FD20008A7955 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8F5E742C0658B100E0A049 /* UserServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceTest.swift; sourceTree = "<group>"; };
 		0AE7902E2C03FD1C008A7955 /* Conexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE790312C03FD1C008A7955 /* ConexaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConexaApp.swift; sourceTree = "<group>"; };
 		0AE790332C03FD1C008A7955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				0AE790422C03FD21008A7955 /* ConexaTests.swift */,
+				0A8F5E742C0658B100E0A049 /* UserServiceTest.swift */,
 			);
 			path = ConexaTests;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8F5E752C0658B100E0A049 /* UserServiceTest.swift in Sources */,
 				0AE790432C03FD21008A7955 /* ConexaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
